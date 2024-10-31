@@ -42,8 +42,8 @@
             bindings = <
              &tog 2  &kp N1          &kp N2    &kp N3     &kp N4  &kp N5                    &tog 5                                                                         &mo 1  &kp N6    &kp N7     &kp N8      &kp N9  &kp MINUS           &kp N0
  &kp LC(LA(LSHIFT))   &kp Q           &kp W     &kp E      &kp R   &kp T             &kp BACKSPACE                                                                    &kp DELETE   &kp Y     &kp U      &kp I       &kp O      &kp P         &kp BSLH
-          &kp LANG5   &kp A           &kp S     &kp D      &kp F   &kp G                   &kp TAB          &kp LALT  &kp LWIN                   &kp LGUI   &kp RALT   &kp ENTER   &kp H     &kp J      &kp K       &kp L   &kp SEMI          &kp SQT
-         &kp K_MENU   &kp Z           &kp X     &kp C      &kp V   &kp B                                              &kp HOME                  &kp PG_UP                          &kp N     &kp M  &kp COMMA     &kp DOT   &kp FSLH  &kp PRINTSCREEN
+          &kp GRAVE   &kp A           &kp S     &kp D      &kp F   &kp G                   &kp TAB          &kp LALT  &kp LWIN                   &kp LGUI   &kp RALT   &kp ENTER   &kp H     &kp J      &kp K       &kp L   &kp SEMI          &kp SQT
+  &kp K_APPLICATION   &kp Z           &kp X     &kp C      &kp V   &kp B                                              &kp HOME                  &kp PG_UP                          &kp N     &kp M  &kp COMMA     &kp DOT   &kp FSLH  &kp PRINTSCREEN
             &kp ESC  &tog 3  &kp SCROLLLOCK  &kp LEFT  &kp RIGHT                    &kp LEFT_SHIFT  &kp LEFT_CONTROL     &mo 5                      &mo 4  &kp SPACE       &mo 3          &kp DOWN     &kp UP  &kp SYSREQ     &tog 4       &kp INSERT
             >;
         };
@@ -72,7 +72,7 @@
             bindings = <
  &trans     &kp F11    &kp F12   &kp F13    &kp F14          &kp F15            &trans                                                  &trans    &kp F16    &kp F17    &kp F18  &kp F19        &kp F20  &trans
  &trans      &kp F1     &kp F2    &kp F3     &kp F4           &kp F5            &trans                                                  &trans     &kp F6     &kp F7     &kp F8   &kp F9        &kp F10  &trans
- &trans  &kp ESCAPE  &kp LANG5  &kp LEFT  &kp RIGHT  &kp LA(LC(TAB))            &trans  &trans  &trans                  &trans  &trans  &trans  &kp ENTER   &kp DOWN     &kp UP   &trans  &kp BACKSPACE  &trans
+ &trans  &kp ESCAPE  &kp GRAVE  &kp LEFT  &kp RIGHT  &kp LA(LC(TAB))            &trans  &trans  &trans                  &trans  &trans  &trans  &kp ENTER   &kp DOWN     &kp UP   &trans  &kp BACKSPACE  &trans
  &trans     &kp F11    &kp F12  &kp HOME    &kp END  &kp PAUSE_BREAK                            &trans                  &trans                    &kp DEL  &kp PG_DN  &kp PG_UP   &trans         &trans  &trans
  &trans     &kp F21    &kp F22   &kp F23    &kp F24                             &trans  &trans  &trans                  &trans  &trans  &trans                &trans     &trans   &trans         &trans  &trans
             >;
@@ -80,20 +80,20 @@
 
         layer_SYMBOL {
             bindings = <
- &trans      &trans          &trans            &trans             &trans       &trans            &trans                                                  &trans           &trans        &trans             &trans           &trans  &trans  &trans
- &trans   &kp GRAVE  &kp UNDERSCORE  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES   &kp DOLLAR            &trans                                                  &trans           &trans  &kp KP_EQUAL           &kp LPAR         &kp RPAR  &trans  &trans
- &trans  &kp TILDE2       &kp PIPE2     &kp AMPERSAND           &kp EXCL  &kp AT_SIGN            &trans  &trans  &trans                  &trans  &trans  &trans  &kp KP_ASTERISK  &kp KP_SLASH  &kp RIGHT_BRACKET  &kp NON_US_HASH  &trans  &trans
- &trans   &kp CARET        &kp HASH       &kp PERCENT           &kp BSLH       &trans                            &trans                  &trans                      &kp KP_PLUS  &kp KP_MINUS           &kp LBRC         &kp RBRC  &trans  &trans
- &trans      &trans          &trans            &trans             &trans                         &trans  &trans  &trans                  &trans  &trans  &trans                         &trans             &trans           &trans  &trans  &trans
+ &trans         &trans        &trans       &trans               &trans            &trans            &trans                                                  &trans           &trans         &trans             &trans           &trans  &trans  &trans
+ &trans   &kp LS(LBKT)  &kp LS(INT1)   &kp LS(N7)           &kp LS(N2)          &kp DLLR            &trans                                                  &trans           &trans  &kp LS(MINUS)         &kp LS(N8)       &kp LS(N9)  &trans  &trans
+ &trans  &kp LS(EQUAL)  &kp LS(INT3)   &kp LS(N6)             &kp EXCL  &kp LEFT_BRACKET            &trans  &trans  &trans                  &trans  &trans  &trans  &kp KP_ASTERISK   &kp KP_SLASH  &kp RIGHT_BRACKET  &kp NON_US_HASH  &trans  &trans
+ &trans      &kp EQUAL      &kp HASH  &kp PERCENT  &kp INTERNATIONAL_3            &trans                            &trans                  &trans                      &kp KP_PLUS   &kp KP_MINUS       &kp LS(RBKT)     &kp LS(NUHS)  &trans  &trans
+ &trans         &trans        &trans       &trans               &trans                              &trans  &trans  &trans                  &trans  &trans  &trans                          &trans             &trans           &trans  &trans  &trans
             >;
         };
 
         layer_KEYPAD {
             bindings = <
  &trans          &trans     &trans     &trans     &trans        &trans            &trans                                                  &trans           &trans         &trans             &trans           &trans  &trans  &trans
- &trans  &kp KP_NUMLOCK  &kp KP_N7  &kp KP_N8  &kp KP_N9       &kp DEL            &trans                                                  &trans           &trans   &kp KP_EQUAL           &kp LPAR         &kp RPAR  &trans  &trans
+ &trans  &kp KP_NUMLOCK  &kp KP_N7  &kp KP_N8  &kp KP_N9       &kp DEL            &trans                                                  &trans           &trans  &kp LS(MINUS)         &kp LS(N8)       &kp LS(N9)  &trans  &trans
  &trans   &kp BACKSPACE  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_ENTER            &trans  &trans  &trans                  &trans  &trans  &trans  &kp KP_ASTERISK  &kp KP_DIVIDE  &kp RIGHT_BRACKET  &kp NON_US_HASH  &trans  &trans
- &trans       &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3    &kp KP_DOT                            &trans                  &trans                      &kp KP_PLUS   &kp KP_MINUS     &kp LEFT_BRACE         &kp RBRC  &trans  &trans
+ &trans       &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3    &kp KP_DOT                            &trans                  &trans                      &kp KP_PLUS   &kp KP_MINUS       &kp LS(RBKT)     &kp LS(NUHS)  &trans  &trans
  &trans          &trans     &trans     &trans     &trans                          &trans  &trans  &trans                  &trans  &trans  &trans                          &trans             &trans           &trans  &trans  &trans
             >;
         };
