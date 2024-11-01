@@ -81,7 +81,7 @@
         layer_SYMBOL {
             bindings = <
  &trans       &kp INT1          &kp INT2     &kp INT3     &kp INT4          &kp INT5            &trans                                                  &trans         &kp INT6       &kp INT7           &kp INT8         &kp INT9  &trans  &trans
- &trans   &kp LS(LBKT)  &kp LS(LS(INT2))   &kp LS(N7)   &kp LS(N2)          &kp DLLR            &trans                                                  &trans           &trans  &kp LS(MINUS)         &kp LS(N8)       &kp LS(N9)  &trans  &trans
+ &trans   &kp LS(LBKT)  &kp LS(LS(INT1))   &kp LS(N7)   &kp LS(N2)          &kp DLLR            &trans                                                  &trans           &trans  &kp LS(MINUS)         &kp LS(N8)       &kp LS(N9)  &trans  &trans
  &trans  &kp LS(EQUAL)   &kp LS(INT_YEN)   &kp LS(N6)     &kp EXCL  &kp LEFT_BRACKET            &trans  &trans  &trans                  &trans  &trans  &trans  &kp KP_ASTERISK   &kp KP_SLASH  &kp RIGHT_BRACKET  &kp NON_US_HASH  &trans  &trans
  &trans      &kp EQUAL          &kp HASH  &kp PERCENT  &kp INT_YEN            &trans                            &trans                  &trans                      &kp KP_PLUS   &kp KP_MINUS       &kp LS(RBKT)     &kp LS(NUHS)  &trans  &trans
  &trans         &trans            &trans       &trans       &trans                              &trans  &trans  &trans                  &trans  &trans  &trans                          &trans             &trans           &trans  &trans  &trans
