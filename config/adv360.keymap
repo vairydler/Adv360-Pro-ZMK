@@ -60,11 +60,11 @@
 
         layer_AHK {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans            &trans                          &trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                                      &trans                          &trans                   &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &kp INT_MUHENKAN                  &kp INT_HENKAN  &trans  &kp F24          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans   &trans                   &trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                             &trans                   &trans                   &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &kp F22                  &kp F23  &trans  &kp F24          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
