@@ -42,9 +42,9 @@
             bindings = <
              &tog 2  &kp N1          &kp N2    &kp N3     &kp N4  &kp N5                    &tog 5                                                                        &mo 1  &kp N6    &kp N7     &kp N8      &kp N9  &kp MINUS           &kp N0
  &kp LC(LA(LSHIFT))   &kp Q           &kp W     &kp E      &kp R   &kp T             &kp BACKSPACE                                                                   &kp DELETE   &kp Y     &kp U      &kp I       &kp O      &kp P         &kp BSLH
-          &kp GRAVE   &kp A           &kp S     &kp D      &kp F   &kp G                   &kp TAB          &kp LALT  &kp LWIN                  &kp LGUI   &kp RALT   &kp ENTER   &kp H     &kp J      &kp K       &kp L   &kp SEMI          &kp SQT
-  &kp K_APPLICATION   &kp Z           &kp X     &kp C      &kp V   &kp B                                                 &mo 5                     &mo 4                          &kp N     &kp M  &kp COMMA     &kp DOT   &kp FSLH  &kp PRINTSCREEN
-            &kp ESC  &tog 3  &kp SCROLLLOCK  &kp LEFT  &kp RIGHT                    &kp LEFT_SHIFT  &kp LEFT_CONTROL     &mo 5                     &mo 4  &kp SPACE       &mo 3          &kp DOWN     &kp UP  &kp SYSREQ     &tog 4       &kp INSERT
+          &kp GRAVE   &kp A           &kp S     &kp D      &kp F   &kp G                   &kp TAB          &kp LALT  &kp LWIN                   &kp LGUI  &kp RALT   &kp ENTER   &kp H     &kp J      &kp K       &kp L   &kp SEMI          &kp SQT
+  &kp K_APPLICATION   &kp Z           &kp X     &kp C      &kp V   &kp B                                                 &mo 5                      &mo 4                         &kp N     &kp M  &kp COMMA     &kp DOT   &kp FSLH  &kp PRINTSCREEN
+            &kp ESC  &tog 3  &kp SCROLLLOCK  &kp LEFT  &kp RIGHT                    &kp LEFT_SHIFT  &kp LEFT_CONTROL   &kp TAB                  &kp SPACE     &mo 4       &mo 3          &kp DOWN     &kp UP  &kp SYSREQ     &tog 4       &kp INSERT
             >;
         };
 
@@ -60,21 +60,21 @@
 
         layer_AHK {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                             &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                             &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans               &trans                               &trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &kp INTERNATIONAL_5                  &kp INTERNATIONAL_4                   &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans             &kp INT5                  &kp INTERNATIONAL_4  &trans  &kp F24          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans               &trans                               &trans          &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &kp INTERNATIONAL_5                  &kp INTERNATIONAL_4                           &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans               &trans                               &trans  &kp INT_HENKAN  &kp F24          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_FUNC {
             bindings = <
- &trans     &kp F11    &kp F12   &kp F13    &kp F14          &kp F15            &trans                                                  &trans    &kp F16    &kp F17    &kp F18  &kp F19        &kp F20  &trans
- &trans      &kp F1     &kp F2    &kp F3     &kp F4           &kp F5            &trans                                                  &trans     &kp F6     &kp F7     &kp F8   &kp F9        &kp F10  &trans
- &trans  &kp ESCAPE  &kp GRAVE  &kp LEFT  &kp RIGHT  &kp LA(LC(TAB))            &trans  &trans  &trans                  &trans  &trans  &trans  &kp ENTER   &kp DOWN     &kp UP   &trans  &kp BACKSPACE  &trans
- &trans     &kp F11    &kp F12  &kp HOME    &kp END  &kp PAUSE_BREAK                            &trans                  &trans                    &kp DEL  &kp PG_DN  &kp PG_UP   &trans         &trans  &trans
- &trans     &kp F21    &kp F22   &kp F23    &kp F24                             &trans  &trans  &trans                  &trans  &trans  &trans                &trans     &trans   &trans         &trans  &trans
+   &trans     &kp F11    &kp F12   &kp F13    &kp F14          &kp F15            &trans                                                                            &trans    &kp F16    &kp F17    &kp F18  &kp F19        &kp F20  &trans
+   &trans      &kp F1     &kp F2    &kp F3     &kp F4           &kp F5            &trans                                                                            &trans     &kp F6     &kp F7     &kp F8   &kp F9        &kp F10  &trans
+ &kp CAPS  &kp ESCAPE  &kp GRAVE  &kp LEFT  &kp RIGHT  &kp LA(LC(TAB))            &trans  &trans               &trans                               &trans  &trans  &trans  &kp ENTER   &kp DOWN     &kp UP   &trans  &kp BACKSPACE  &trans
+   &trans     &kp F11    &kp F12  &kp HOME    &kp END  &kp PAUSE_BREAK                                 &kp LANGUAGE_1                               &trans                    &kp DEL  &kp PG_DN  &kp PG_UP   &trans         &trans  &trans
+   &trans     &kp F21    &kp F22   &kp F23    &kp F24                             &trans  &trans  &kp INTERNATIONAL_4                  &kp INTERNATIONAL_5  &trans  &trans                &trans     &trans   &trans         &trans  &trans
             >;
         };
 
